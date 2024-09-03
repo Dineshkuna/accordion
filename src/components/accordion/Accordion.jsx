@@ -47,11 +47,12 @@ const Accordion = () => {
       {data.map((item,index) => (
         
         <div key={index} className="heading">
+          <span className="symbol">+</span>
           <h3 onClick={()=>handleSection(item.id)}>{item.question}</h3>
           
-          <span className="symbol">+</span>
+          
           {
-            selected === item.id && <div><p>{item.answer}</p></div>
+            selected === item.id && <div className="answer"><p >{item.answer}</p></div>
           }
         </div>
       ))}
