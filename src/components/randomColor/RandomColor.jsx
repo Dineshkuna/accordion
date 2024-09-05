@@ -21,12 +21,17 @@ function RandomColor() {
             height: "100vh"
         }}>
             
-            <button>Create rgb color</button>
-            <button>Create hex color</button>
-            <button onClick={()=>generateColor()}>Generate random Color</button>
+            
+            <button style={{
+                padding: '10px 20px',
+                fontSize: '15px',
+                borderRadius: '5px',
+                marginTop:'10px'
+            }} onClick={()=>generateColor()}>Generate random Color</button>
             <p style={{
                 fontWeight: 'bold',
                 fontSize: '24px',
+
             }}>current Color : {color}</p>
         </div>
     )
