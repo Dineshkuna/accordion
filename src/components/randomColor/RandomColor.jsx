@@ -24,7 +24,10 @@ function RandomColor() {
             <button>Create rgb color</button>
             <button>Create hex color</button>
             <button onClick={()=>generateColor()}>Generate random Color</button>
-            <p>current Color : {color}</p>
+            <p style={{
+                fontWeight: 'bold',
+                fontSize: '24px',
+            }}>current Color : {color}</p>
         </div>
     )
 }
