@@ -1,7 +1,9 @@
 
 
 import './App.css';
-import Rating from './components/star_rating/Starrating';
+import LoadMoreData from './components/load-data/LoadData';
+// import SliderImages from './components/slider/Slider';
+// import Rating from './components/star_rating/Starrating';
 // import Accordion from './components/accordion/Accordion';
 // import RandomColor from './components/randomColor/RandomColor';
 
@@ -10,7 +12,9 @@ function App() {
     <div className="App">
       {/* <Accordion/> */}
       {/* <RandomColor/> */}
-      <Rating/>
+      {/* <Rating/> */}
+      {/* <SliderImages/> */}
+      <LoadMoreData/>
       
     </div>
   );
