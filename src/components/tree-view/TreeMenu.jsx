@@ -10,7 +10,16 @@ const TreeMenu = () => {
 
   return (
     <div>
-      <div>
+      <div style={{
+        backgroundColor : "blue",
+        width : "300px",
+        height: "300px",
+        color : "#fff",
+        fontSize: "20px",
+        cursor: "pointer"
+
+        
+      }}>
         {Menus.map((item, index) => (
           <div key={index}>
             <p onClick={() => handleChild(index)}>
