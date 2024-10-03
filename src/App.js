@@ -1,7 +1,8 @@
 
 
 import './App.css';
-import LoadMoreData from './components/load-data/LoadData';
+// import LoadMoreData from './components/load-data/LoadData';
+import TreeMenu from './components/tree-view/TreeMenu';
 // import SliderImages from './components/slider/Slider';
 // import Rating from './components/star_rating/Starrating';
 // import Accordion from './components/accordion/Accordion';
@@ -14,7 +15,8 @@ function App() {
       {/* <RandomColor/> */}
       {/* <Rating/> */}
       {/* <SliderImages/> */}
-      <LoadMoreData/>
+      {/* <LoadMoreData/> */}
+      <TreeMenu/>
       
     </div>
   );
