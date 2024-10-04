@@ -8,6 +8,7 @@ const QrCode = () => {
 
     const handleQr=()=>{
         SetQrCode(input)
+        SetInput("")
     }
     return(
         <div>
