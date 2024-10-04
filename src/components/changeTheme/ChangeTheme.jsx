@@ -1,10 +1,16 @@
-import React  from 'react'
+import React, { useState }  from 'react'
 
-const ChangeThemeBg = () => {   
+const ChangeThemeBg = () => { 
+    const[color, setColor] = useState("white");
+    
+    const handleColor = () => {
+        setColor((prevColor) => (prevColor === "white" ? "black" : "white"))
+
+    }
     return(
-        <div>
+        <div style={{backgroundColor : color , height : "200vh", padding : "20px"}}>
             <p>ChangeTheme</p>
-            <button >ThemeColor</button>
+            <button onClick={handleColor} >ThemeColor</button>
         </div>
     )
 }
