@@ -1,9 +1,10 @@
 
 
 import './App.css';
-import QrCode from './components/qrCodeGenrator/QrGen';
+import ChangeThemeBg from './components/changeTheme/ChangeTheme';
+// import QrCode from './components/qrCodeGenrator/QrGen';
 // import LoadMoreData from './components/load-data/LoadData';
-import TreeMenu from './components/tree-view/TreeMenu';
+// import TreeMenu from './components/tree-view/TreeMenu';
 // import SliderImages from './components/slider/Slider';
 // import Rating from './components/star_rating/Starrating';
 // import Accordion from './components/accordion/Accordion';
@@ -18,7 +19,8 @@ function App() {
       {/* <SliderImages/> */}
       {/* <LoadMoreData/> */}
       {/* <TreeMenu/> */}
-      <QrCode/>
+      {/* <QrCode/> */}
+      <ChangeThemeBg/>
       
     </div>
   );
