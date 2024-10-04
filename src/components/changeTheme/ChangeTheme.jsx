@@ -9,8 +9,8 @@ const ChangeThemeBg = () => {
     }
     return(
         <div style={{backgroundColor : color , height : "200vh", padding : "20px"}}>
-            <p>ChangeTheme</p>
-            <button onClick={handleColor} >ThemeColor</button>
+            <p style= {{color : "yellow", fontSize : "19px" , fontWeight : "bold" }}>ChangeTheme</p>
+            <button style={{padding : "20px 40px" , fontSize : "15px"}} onClick={handleColor} >ThemeColor</button>
         </div>
     )
 }
