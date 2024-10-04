@@ -1,6 +1,7 @@
 
 
 import './App.css';
+import QrCode from './components/qrCodeGenrator/QrGen';
 // import LoadMoreData from './components/load-data/LoadData';
 import TreeMenu from './components/tree-view/TreeMenu';
 // import SliderImages from './components/slider/Slider';
@@ -16,7 +17,8 @@ function App() {
       {/* <Rating/> */}
       {/* <SliderImages/> */}
       {/* <LoadMoreData/> */}
-      <TreeMenu/>
+      {/* <TreeMenu/> */}
+      <QrCode/>
       
     </div>
   );
