@@ -1,0 +1,97 @@
+.form-builder {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .sidebar h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .field-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .field-option {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: grab;
+  }
+  
+  .field-option:active {
+    cursor: grabbing;
+  }
+  
+  .form-preview {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 300px;
+    border: 2px dashed #ccc;
+  }
+  
+  .form-preview h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-preview .form-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .form-preview input[type="text"] {
+    width: 50%;
+    padding: 5px;
+  }
+  
+  .form-preview button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-render {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .form-render h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
